@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+
+    background-image: url(bg1.png);
+    background-position: center;
+    background-repeat: no;
+    align-items: center;
+    justify-content: center;display: flex;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    width: 420px;
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    backdrop-filter:blur(15px);
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , .2);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 50px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18pt;
+}
+table{
+    padding: 20px 40px;
+}
+.inputbx{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 20px;
+}
+.jk{
+    cursor: pointer;
+}
+.tombol-kirim{
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    border-width: 10px;
+    background-color: rgb(71, 161, 73);
+    margin-left: 80%;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.tombol-kirim:hover {
+    background-color: rgb(91, 181, 93);
+    transform: scale(1.05);
+}
